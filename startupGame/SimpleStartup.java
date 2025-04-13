@@ -4,7 +4,7 @@ class SimpleStartup {
   public void setLocationCells(int[] locs) {
     locationCells = locs;
   }
-  public String checkYourself(int guess) {
+  public String checkYourSelf(int guess) {
     String result = "miss";
     for (int cell : locationCells) {
       if (guess == cell) {
